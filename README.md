@@ -14,5 +14,5 @@ Conflict detection. A fixed rule, not the model, checks every edge. The delay is
 Search and ranking. Adapters query flight inventory, IRCTC Current Booking and OSRM road routing. Results are filtered by budget, deadline and travel mode, then Gemini scores them and presents three plans:
 Alpha: fastest
 Beta: cost-neutral
-Gamma: nearby hub plus a cab
+Gamma: nearby hub plus a cab 
 Notify and recover. The traveller picks a plan in one tap. The system produces a delay proof from the PNR record, sends the hotel a late check-in note, and delivers messages by WhatsApp or email.
